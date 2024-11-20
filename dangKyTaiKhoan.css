@@ -1,0 +1,154 @@
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-regist{
+    max-width: 400px;
+    padding: 10px;
+    flex-grow: 1;
+    
+}
+
+.form-heading{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.form-input{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    
+}
+
+.form-submit{
+    height: 25px;
+    width: 220px;
+    border: 2px solid rgb(1, 1, 138);
+    margin-top: 2px;
+}
+.form-submit::placeholder{
+    color: rgb(28, 28, 214);
+
+}
+
+.form-information{
+    display: flex;
+}
+
+
+
+#date-born{
+    color: rgb(28, 28, 214);
+    height: 25px;
+    width: 100px;
+    border: 2px solid rgb(1, 1, 138);
+    margin-right: 8px;
+}
+
+#sex{
+    color: rgb(28, 28, 214);
+    height: 28.5px;
+    width: 115px;
+    border: 2px solid rgb(1, 1, 138);
+}
+
+.form-heading1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.form-checkBox{
+    margin-left: 0;
+    margin-top: 1px;
+    border: 1px solid rgb(0, 0, 110);
+    background-color: rgb(4, 4, 250);
+    
+}
+
+.form-label{
+    margin-top: 1px;
+    
+}
+/* tạo before và after của label*/
+.checkbox-group label::after,
+.checkbox-group label::before{
+    content: "";
+    display: inline-block;
+}
+
+/*dùng before tạo hình vuông giống checkbox */
+.checkbox-group label::before{
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgb(0, 0, 110);
+    background-color: rgb(84, 84, 210);
+    margin-right: 4px;
+    margin-left: 0;
+}
+label{
+    user-select: none;
+}
+
+.checkbox-group [type="checkbox"]:checked ~ label::before{
+    background-color: #fff;
+}
+
+
+
+.checkbox-group label{
+    position: relative;
+    display: inline-block;
+}
+
+.form-youself{
+    display: flex;
+    max-width: 236px;
+
+}
+
+.text-yourself{
+    margin-bottom: 0;
+}
+
+.form-describe{
+    width: 228px;
+    height: 100px;
+    border: 2px solid rgb(1, 1, 138);
+
+}
+
+.form-button{
+    display: flex;
+    position: relative;
+}
+
+.form-button1{
+    position: absolute;
+    left: 20px;
+    top: 3px;
+    width: 93px;
+    height: 30px;
+    color: #fff;
+    border: 2px solid rgb(1, 1, 138);
+    background-color: rgb(84, 84, 210);
+}
+
+.form-button2{
+    position: absolute;
+    right: 187px;
+    top: 3px;
+    width: 93px;
+    height: 30px;
+    color: #fff;
+    border: 2px solid rgb(1, 1, 138);
+    background-color: rgb(84, 84, 210);
+}
+
+
+
+

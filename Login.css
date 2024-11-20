@@ -1,0 +1,64 @@
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-login{
+    max-width: 400px;
+    flex-grow: 1;
+   
+}
+
+.form-heading{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.form-tenDangNhap{
+    display: flex;
+    margin: 0;
+    max-height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-text1{
+    margin-right: auto;
+    
+}
+.form-text2{
+    margin-right: 99px;
+}
+
+.form-input{
+    margin-right: auto;
+    flex-shrink: 0;
+    border: 2px solid rgb(1, 1, 111);
+}
+
+.form-pW{
+    display: flex;
+    margin: 0;
+    max-height: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+.form-button{
+    margin-top: 5px;
+    display: flex;
+    margin-left: 168px;
+    flex-direction: row;
+}
+.form-submit{
+    margin-right: 5px;
+    color: #fff;
+    border: 2px solid rgb(1, 1, 111);
+    background-color: rgb(4, 4, 199);
+    height: 35px;
+    width: 100px;
+
+}

@@ -1,0 +1,58 @@
+
+
+.form-heading{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 20px;
+}
+
+.form-login{
+    margin-top: 0   ;
+    display:flex;
+}
+
+.tenDangNhap{
+    margin: 0;
+    margin-right: 10px;
+}
+
+.form-input{
+    border: 2px solid rgb(0, 0, 100);
+    width: 270px;
+}
+
+.form-sex{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.gioiTinh{
+    margin: 0;
+    margin-right: 15px;
+}
+
+.form-heading1{
+    margin: 0;
+}
+
+.form-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-button{
+    margin-top: 5px;
+}
+
+.form-bn{
+    width: 93px;
+    height: 30px;
+    color: #fff;
+    border: 2px solid rgb(1, 1, 138);
+    background-color: rgb(84, 84, 210);
+}

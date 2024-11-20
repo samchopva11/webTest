@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phiếu Thăm Dò Ý Kiến</title>
+    <link rel="stylesheet" href="./phieuThamDoYkien.css">
+</head>
+<body>
+    <form action="" id="form-survey">
+        <h1 class="form-heading">phiếu thăm dò ý kiến</h1>
+        <div class="form-login">
+            <p class="tenDangNhap">Tên đăng nhập:</p>
+            <input type="text" class="form-input">
+        </div>
+        <div class="form-sex">
+            <p class="gioiTinh">Giới Tính:</p>
+            <input type="radio" name="Nam" id="nam">
+            <label for="nam">Nam</label>
+            <input type="radio" name="Nu" id="nu">
+            <label for="nu">Nữ</label>
+
+        </div>
+        <p class="heading1">Những mục bạn thường quan tâm trên Internet</p>
+        <div class="form-information">
+            <div class="form-radio">
+                <input type="checkbox" name="tintuc" id="tinTuc">
+                <label for="tinTuc">Tin tức</label><br>
+                <input type="checkbox" name="giaitri" id="giaiTri">
+                <label for="giaiTri">Giải Trí</label><br>
+                <input type="checkbox" name="gochoctap" id="gocHocTap">
+                <label for="gocHocTap">Góc Học Tập</label><br>
+                <input type="checkbox" name="giaoduc" id="giaoDuc">
+                <label for="giaoDuc">Giáo Dục</label><br>
+                <input type="checkbox" name="cacmuckhac" id="cacMucKhac">
+                <label for="cacMucKhac">Các Mục Khác</label><br>
+            </div>
+            <div class="form-button">
+                <input type="submit" value="Cancel" class="form-bn">
+                <input type="submit" value="Sent" class="form-bn">
+
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

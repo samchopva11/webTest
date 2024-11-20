@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="text-transform: uppercase;">đăng ký tài khoản</title>
+    <link rel="stylesheet" href="./dangKyTaiKhoan.css">
+</head>
+<body>
+    <div id="wrapper">
+        <form action="" id="form-regist">
+            <h1 class="form-heading">đăng ký tài khoản</h1>
+            <div class="form-input">
+                <input type="text" class="form-submit" placeholder="Nhập username">
+                <input type="password" class="form-submit" placeholder="Nhập mật khẩu">
+                <input type="email" required class="form-submit" placeholder="Nhập địa chỉ email">
+
+            </div>
+            <div class="form-information">
+                <div class="form-date">
+                    <label for="date-born">Ngày sinh</label><br>
+                    <input type="date" name="dateBorn" id="date-born">
+                </div>
+                <div class="form-sex">
+                    <label for="sex">Giới tính</label><br>
+                    <select name="yourSex" id="sex">
+                        <option value="">Nam</option>
+                        <option value="">Nữ</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-hobbies">
+                <p class="form-heading1">Sở thích</p>
+                <div class="checkbox-group">
+                    <input type="checkbox" name="watchMovie" id="movie" class="form-checkBox" hidden>
+                    <label for="movie" class="form-label">Xem phim</label><br>
+                    <input type="checkbox" name="listenMusic" id="listen" class="form-checkBox"hidden >
+                    <label for="listen" class="form-label" >Nghe Nhạc</label><br>
+                    <input type="checkbox" name="readBook" id="read" class="form-checkBox"hidden>
+                    <label for="read" class="form-label">Đọc sách</label><br>
+                    <input type="checkbox" name="traveling" id="travel" class="form-checkBox"hidden>
+                    <label for="travel" class="form-label">Du lịch</label><br>
+                </div>
+                
+            </div>
+            <div class="form-yourSelf">
+                <p class="text-yourself">Giới thiệu bản thân</p><br>
+                <input type="text" class="form-describe"><br>
+                <div class="form-button">
+                    <input type="submit" value="Cancel" class="form-button1"></input>
+                    <input type="submit" value="Regist" class="form-button2"></input>
+                </div>
+                
+
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>

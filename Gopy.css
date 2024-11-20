@@ -1,0 +1,60 @@
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    
+}
+
+#form-gopy{
+    max-width: 400px;
+    flex-grow: 1;
+   
+}
+
+.form-heading{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.form-name{
+    display: flex;
+    margin: 0;
+    max-height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-text1{
+    margin-right: auto;
+    
+}
+.form-text2{
+    margin-right: 43.5px;
+    height: fit-content;
+    
+}
+
+.form-input1{
+    margin-right: auto;
+    flex-shrink: 0;
+    border: 2px solid rgb(1, 1, 111);
+}
+.form-input2{
+    margin-right: auto;
+    flex-shrink: 0;
+    border: 2px solid rgb(1, 1, 111);
+    width: 220px;
+    display: block;
+    height: 100px;
+    margin-top: 90px;
+    
+
+}
+
+.form-content{
+    display: flex;
+    margin: 0;
+    max-height: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
